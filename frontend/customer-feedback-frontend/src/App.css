@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eef2f7;
+}
+
+.login-box {
+  width: 380px;
+  padding: 40px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.login-box h1 {
+  color: #2563eb;
+  margin:0 0 12px 0;
+  font-size:30px;
+}
+
+.login-box h2 {
+  color: #333;
+  font-size: 20px;
+  margin:0 0 30px 0;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 13px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 13px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background: #1d4ed8;
+}
+
+.login-box p {
+  color: #777;
+  font-size: 13px;
+  margin-top: 20px;
+}
+.dashboard {
+  min-height: 100vh;
+  padding: 40px;
+  text-align: center;
+  background: #f2f5f9;
+}
+
+.dashboard h1 {
+  color: #2563eb;
+}
+
+.dashboard-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.card {
+  width: 200px;
+  padding: 25px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px #ccc;
+}
+
+.card p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.dashboard button,
+.feedback-box button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.feedback-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f5f9;
+}
+
+.feedback-box {
+  width: 420px;
+  padding: 35px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px #ccc;
+  text-align: center;
+}
+
+.feedback-box h1 {
+  color: #2563eb;
+}
+
+.feedback-box input,
+.feedback-box select,
+.feedback-box textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.feedback-box textarea {
+  resize: vertical;
+}
+
+.back-button {
+  margin-top: 15px;
+}
